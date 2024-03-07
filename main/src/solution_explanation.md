@@ -4,6 +4,8 @@ SELECT e.name AS name, p.name AS name
 FROM employees e
 LEFT JOIN projects p ON e.id = p.id;
 
+![Alt Text] (jetbrains://idea/navigate/reference?project=sql-joins-in-a-software-company-database-Terissa&path=Screenshot from 2024-03-07 12-04-48.png)
+
 // We are selecting data from the employees table (e) and the projects table (p).
 We're using a LEFT JOIN to ensure that all employees are listed, even if they are not assigned to a project.
 The ON clause specifies the condition for joining the two tables, linking the project_id from the employees table to the id of the projects table.
